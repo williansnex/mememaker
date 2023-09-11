@@ -82,6 +82,7 @@ export default function Home() {
           src={logomeme}
           alt="mememaker"
           className="h-full w-full"
+          priority
         />
         <ModeToggle />
       </div>
@@ -93,6 +94,7 @@ export default function Home() {
               height={500}
               src={generatedMeme}
               alt="Generated meme"
+              priority
             />
             <Button
               type="button"
@@ -125,6 +127,7 @@ export default function Home() {
                       width={130}
                       height={130}
                       className="h-full w-full"
+                      priority
                     />
                   </Button>
                 ))}
