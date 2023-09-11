@@ -26,7 +26,7 @@ Um aplicativo simples para criar memes de forma rápida e divertida.
 
 O aplicativo estará disponível em http://localhost:3000.
 
-Como Usar?.
+## Como Usar?
 
 Abra o aplicativo em seu navegador: http://localhost:3000
 
