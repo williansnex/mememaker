@@ -8,7 +8,6 @@ Um aplicativo simples para criar memes de forma rápida e divertida.
 ## Site do Gerador de Memes
 
 Você também pode acessar o site do Gerador de Memes para criar memes diretamente no seguinte link:
-
 [Visite o Site](https://geradordememes.vercel.app/)
 
 
