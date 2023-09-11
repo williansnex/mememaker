@@ -16,8 +16,8 @@ Navegue até o diretório do projeto:
 cd mememaker
 
 Instale as dependências usando Yarn:
-```bash
-yarn install
+  ```bash
+  yarn install
 
 Inicie o aplicativo:
 yarn dev
