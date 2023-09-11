@@ -43,4 +43,4 @@ Abra o aplicativo em seu navegador: http://localhost:3000
 
 Seu Meme esta criado!.
 
-Você pode fazer o download do meme gerado ou compartilhá-lo nas redes sociais.
+Você pode fazer o download do meme gerado e compartilhá-lo nas redes sociais.
