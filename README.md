@@ -12,15 +12,17 @@ Um aplicativo simples para criar memes de forma rápida e divertida.
     ```bash
    git clone https://github.com/williansnex/mememaker.git
 
-Navegue até o diretório do projeto:
-cd mememaker
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd mememaker
 
-Instale as dependências usando Yarn:
-  ```bash
-  yarn install
+3. Instale as dependências usando Yarn:
+   ```bash
+   yarn install
 
-Inicie o aplicativo:
-yarn dev
+4. Inicie o aplicativo:
+   ```bash
+   yarn dev
 
 O aplicativo estará disponível em http://localhost:3000.
 
