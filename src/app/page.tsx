@@ -141,7 +141,7 @@ export default function Home() {
                       <Input
                         className="mb-3"
                         key={index}
-                        placeholder={`Text #${index + 1}`}
+                        placeholder={`Texto # ${index + 1}`}
                         onChange={handleInputChange(index)}
                       />
                     ),
