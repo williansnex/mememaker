@@ -1,7 +1,8 @@
 # Gerador de Memes em React com Next.js
 
 Um aplicativo simples para criar memes de forma rápida e divertida.
-![image](https://github.com/williansnex/mememaker/assets/120076321/094233db-2a14-45d6-936c-9f089b35d618)
+![image](https://github.com/williansnex/mememaker/assets/120076321/094233db-2a14-45d6-936c-9f089b35d618) ![image](https://github.com/williansnex/mememaker/assets/120076321/f8e44329-68fc-4266-ab44-b74b2a88bd0e)
+
 
 
 ## Instalação
