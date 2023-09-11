@@ -2,7 +2,8 @@
 
 Um aplicativo simples para criar memes de forma rápida e divertida.
 
-![image](https://github.com/williansnex/mememaker/assets/120076321/3908b834-1fc4-4099-aaae-2ff45c859192)
+![image](https://github.com/williansnex/mememaker/assets/120076321/c6aa759a-bcfb-4358-969b-5329efeeb965)
+
 ![image](https://github.com/williansnex/mememaker/assets/120076321/f8e44329-68fc-4266-ab44-b74b2a88bd0e)
 
 
