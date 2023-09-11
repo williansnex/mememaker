@@ -25,6 +25,7 @@
     "next": "13.4.19",
     "next-themes": "^0.2.1",
     "postcss": "8.4.29",
+    "qs": "^6.11.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.46.1",
@@ -35,6 +36,7 @@
     "zod": "^3.22.2"
   },
   "devDependencies": {
-    "@rocketseat/eslint-config": "^2.1.0"
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/qs": "^6.9.8"
   }
 }

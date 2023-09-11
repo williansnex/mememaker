@@ -10,7 +10,7 @@ export function ModeToggle() {
   const isLightMode = theme === 'light'
 
   return (
-    <div>
+    <div className="mt-14">
       <Button
         variant="ghost"
         size="icon"
@@ -18,12 +18,12 @@ export function ModeToggle() {
       >
         {isLightMode ? (
           <>
-            <Sun size={35} className="h-[1.2rem] w-[1.2rem]" />
+            <Sun size={48} className="h-[5rem] w-[5rem]" />
             <span className="sr-only">Switch to dark mode</span>
           </>
         ) : (
           <>
-            <Moon size={35} className="h-[1.2rem] w-[1.2rem]" />
+            <Moon size={48} className="h-[5rem] w-[5rem] dark:text-[#64748B]" />
             <span className="sr-only">Switch to light mode</span>
           </>
         )}
