@@ -35,7 +35,7 @@ Você também pode acessar o site do Gerador de Memes para criar memes diretamen
 
 ## Como Usar?
 
-Abra o aplicativo em seu navegador: http://localhost:3000
+Abra o aplicativo em seu navegador: http://localhost:3000 ou [Site](https://geradordememes.vercel.app/)
 
 1º Selecione um template;
 
@@ -43,6 +43,6 @@ Abra o aplicativo em seu navegador: http://localhost:3000
 
 3º Clique no botão 'MakeMyMeme!';
 
-Seu Meme esta criado!.
+Seu Meme está criado!.
 
 Você pode fazer o download do meme gerado e compartilhá-lo nas redes sociais.
