@@ -74,7 +74,7 @@ export default function Home() {
   }
 
   return (
-    <div className="w-full h-full flex items-center justify-center flex-col mt-5">
+    <div className="w-full h-full flex items-center justify-center flex-col mt-7">
       <div className="flex">
         <Image
           width={85}
