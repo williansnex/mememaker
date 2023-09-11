@@ -133,7 +133,7 @@ export default function Home() {
 
             {selectedTemplate && (
               <>
-                <h2 className="mb-3">2º Selecione os textos</h2>
+                <h2 className="mb-3">2º Escreva os textos</h2>
                 <form onSubmit={handleSubmit}>
                   {Array.from(
                     { length: selectedTemplate.box_count },
