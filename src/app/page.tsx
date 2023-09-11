@@ -86,12 +86,12 @@ export default function Home() {
         />
         <ModeToggle />
       </div>
-      <Card className="w-[555px] p-5 mt-5">
+      <Card className="lg:w-[35rem] md:w-[35rem] xl:w-[35rem] p-6 mt-5">
         {generatedMeme && (
           <>
             <Image
               width={600}
-              height={500}
+              height={600}
               src={generatedMeme}
               alt="Generated meme"
               priority
@@ -108,13 +108,13 @@ export default function Home() {
         {!generatedMeme && (
           <>
             <h2 className="mb-2">1º Selecione um template</h2>
-            <Card className="dark:bg-slate-500 w-full h-[130px] flex items-center mb-10">
-              <ScrollArea className="w-[1000px] h-[100px] pl-3 pr-1">
+            <Card className="dark:bg-slate-500 w-full h-[8rem] flex items-center mb-10">
+              <ScrollArea className="w-full h-[6.2rem] pl-4 pr-1">
                 {templates.map((template) => (
                   <Button
                     key={template.id}
                     type="button"
-                    className={`w-[85px] h-[85px] mr-3 mt-2 p-0 ${
+                    className={`w-[5.3rem] h-[5.3rem] mr-3 mt-2 p-0 ${
                       template.id === selectedTemplate?.id
                         ? 'border-4 border-blue-500'
                         : ''
@@ -152,7 +152,7 @@ export default function Home() {
 
                   <Button
                     type="submit"
-                    className="mt-4 w-full bg-[#4395D8] hover.bg-[#3672a3] text-white bold"
+                    className="mt-5 w-full bg-[#4395D8] hover.bg-[#3672a3] text-white bold"
                   >
                     MakeMyMeme!
                   </Button>
