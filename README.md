@@ -39,7 +39,7 @@ Abra o aplicativo em seu navegador: http://localhost:3000
 
 2º Escreva os textos;
 
-3º Clique no botão 'MakeMyMame!';
+3º Clique no botão 'MakeMyMeme!';
 
 Seu Meme esta criado!.
 
