@@ -4,7 +4,6 @@ import React, { useState, useEffect, ChangeEvent, FormEvent } from 'react'
 import Image from 'next/image'
 import logomeme from '@/image/logo.svg'
 import { ModeToggle } from '@/components/ModeToggle'
-import { ScrollArea } from '@/components/ui/scroll-area'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -74,7 +73,7 @@ export default function Home() {
   }
 
   return (
-    <div className="w-full h-full flex items-center justify-center flex-col mt-7">
+    <div className="w-full h-full flex items-center justify-center flex-col mt-3">
       <div className="flex">
         <Image
           width={85}
@@ -86,7 +85,7 @@ export default function Home() {
         />
         <ModeToggle />
       </div>
-      <Card className="lg:w-[35rem] md:w-[35rem] xl:w-[35rem] p-6 mt-5">
+      <Card className="lg:w-[35rem] md:w-[35rem] xl:w-[35rem] p-6 mt-3">
         {generatedMeme && (
           <>
             <Image
@@ -108,13 +107,13 @@ export default function Home() {
         {!generatedMeme && (
           <>
             <h2 className="mb-2">1º Selecione um template</h2>
-            <Card className="dark:bg-slate-500 w-full h-[8rem] flex items-center mb-10">
-              <ScrollArea className="w-full h-[6.2rem] pl-4 pr-1">
+            <Card className="dark:bg-slate-500 w-full h-[8rem] flex items-center mb-6">
+              <div className="w-full h-[6rem] pl-6 pr-1 overflow-y-scroll mr-5">
                 {templates.map((template) => (
                   <Button
                     key={template.id}
                     type="button"
-                    className={`w-[5.3rem] h-[5.3rem] mr-3 mt-2 p-0 ${
+                    className={`w-[6rem] h-[6rem] mr-3 p-0 ${
                       template.id === selectedTemplate?.id
                         ? 'border-4 border-blue-500'
                         : ''
@@ -131,7 +130,7 @@ export default function Home() {
                     />
                   </Button>
                 ))}
-              </ScrollArea>
+              </div>
             </Card>
 
             {selectedTemplate && (
